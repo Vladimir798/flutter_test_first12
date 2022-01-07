@@ -54,13 +54,21 @@ class SimpleList extends StatelessWidget {
       //     // MyListItem(number: 10),
       //     // MyListItem(number: 11),
       //     // MyListItem(number: 12),
-      //
+      //     // MyListItem(number: 13),
+      //     // MyListItem(number: 14),
+      //     // MyListItem(number: 15),
+      //     // MyListItem(number: 16),
+      //     // MyListItem(number: 17),
+      //     // MyListItem(number: 18),
+      //     // MyListItem(number: 19),
+      //     // MyListItem(number: 20),
+        //
       // ],
       children: const <Widget>[
         ListTile(
           leading: Icon(Icons.map),
           title: Text('Map'),
-        ),
+                ),
         ListTile(
           leading: Icon(Icons.photo_album),
           title: Text('Album'),
@@ -123,7 +131,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: 10,
+      itemCount: 20,
       itemBuilder: (BuildContext context, int index) {
         return ListTile(
           title: Text('Item $index'),

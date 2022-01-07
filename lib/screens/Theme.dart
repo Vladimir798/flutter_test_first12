@@ -31,7 +31,7 @@ class _ThemesDemoScreenState extends State<ThemesDemoScreen> {
       children: [
         DrawerHeader(
           decoration: const BoxDecoration(
-            color: Colors.blue,
+            color: Colors.redAccent,
           ),
           child: Container(
             height: 200,
@@ -64,7 +64,7 @@ class _ThemesDemoScreenState extends State<ThemesDemoScreen> {
         ),
         const Divider(), //here is a divider
         const Padding(
-          padding: EdgeInsets.only(left: 10),
+          padding: EdgeInsets.only(left: 15),
           child: Text("Профиль",
               style: TextStyle(
                   color: Colors.grey, fontWeight: FontWeight.bold)),

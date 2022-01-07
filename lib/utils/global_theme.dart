@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 
 ThemeData globalTheme() => ThemeData(
   fontFamily: 'Georgia',
-  splashColor: Colors.yellow,
+  splashColor: Colors.greenAccent,
 
   colorScheme: ColorScheme.fromSwatch(
-    brightness: Brightness.light,
+    brightness: Brightness.dark,
     primarySwatch: Colors.orange,
   ).copyWith(
     secondary: Colors.green,
